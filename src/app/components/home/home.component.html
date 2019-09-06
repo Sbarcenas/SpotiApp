@@ -1,0 +1,9 @@
+<p>home works!</p>
+
+<section class="card-columns">
+<app-card *ngFor="let song of newReleases" 
+[title] = "song.name"
+[image] = "song.images"
+[desc] = "song.artists"
+></app-card>
+</section>
